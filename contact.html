@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rani kumari - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar sidebargo">
+            <nav>
+                <ul>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="/intro.html">INTRODUCTION</a></li>
+                    <li><a href="/blog.html">PROJECTS</a></li>
+                    <li><a href="/contact.html">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+          <div class="hamburger">
+            <img class="ham" src="ham.png" alt="" width="30">
+            <img class="cross" src="cross.png" alt="" width="15">
+        </div>
+        
+            <div class="contactform">
+                <h1>Contact me for work/general enquiries</h1>
+                <form action="https://formsubmit.co/ba3dd6458d0728fad971d7b685de28cf" method="POST">
+                    <div class="mb-3">
+                        <label for="clientemail" class="form-label">Name</label>
+                        <input type="name" name="name" class="form-control" id="clientemail" aria-describedby="emailHelp" required>
+                      </div>
+                    <div class="mb-3">
+                      <label for="clientemail" class="form-label">Email address</label>
+                      <input type="email" name="email" class="form-control" id="clientemail" aria-describedby="emailHelp" required>
+                      <div id="emailHelp" class="form-text">We'll never share your email & phone with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                      <label for="clientphone" class="form-label">Phone</label>
+                      <input type="phone" name="phone" class="form-control" id="clientphone" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="clientemail" class="form-label">Organisation Name</label>
+                        <input type="enquiry" name="Organisation" class="form-control" id="clientemail" aria-describedby="emailHelp" required>
+                      </div>
+                    <div class="mb-3" id="form-check">
+                      <input type="checkbox" class="form-check-input" id="isclient" required>
+                      <label class="form-check-label" for="isclient">Do you want to hire me</label>
+                    </div>
+                    <button type="submit" class="btn btn-sm">Submit</button>
+                  </form>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+    <!-- <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+      function sendEmail(){
+        Email.send({
+            Host : "smtp.gmail.com",
+            Username : "ranikumari4356867@gamil.com",
+            Password : "Rani@1234",
+            To : 'ranikumari4356867@gmail.com',
+            From : document.getElementById("clientemail").value,
+            Subject : "New Contact Form Enquiry",
+            Body : "And this is the body"
+        }).then(
+          message => alert(message)
+          );
+      }
+    </script> -->
+</body>
+
+</html>
